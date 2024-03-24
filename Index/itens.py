@@ -5,6 +5,6 @@ class Itens():
         self.name=name
         self.description=description
         self.active=[True,False]
-item1=Itens("Matadora de dragões","este itemé um item de dano fisico que blblblb")
-print(item1)
+item1=Itens("Matadora de dragões","")
+print(item1.name)
         
